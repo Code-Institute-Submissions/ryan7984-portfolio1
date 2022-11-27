@@ -51,12 +51,12 @@ h1 h2 {
   }
   
   .header a:hover {
-    border-bottom: 1px solid white;
+    border-bottom: .5px solid white;
   }
   
   
   .header a.active {
-    border-bottom: 1px solid white;
+    border-bottom: .5px solid white;
     
   }
   
@@ -93,7 +93,7 @@ h1 h2 {
 #banner-image {
     height: 600px;
     width: 100%;
-    background: url('/images/long-grass-with-morning-due.jpg');
+    background: url('images/long-grass-with-morning-due.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -159,15 +159,15 @@ footer {
     height:60px;
 }
 
-.social-links{
+.social{
     text-align:center;
 }
 
-.social-links > li{
+.social> li{
    display: inline;
 }
 
-.social-links i {
+.social i {
 
     font-size: 160%;
     margin:0%;
