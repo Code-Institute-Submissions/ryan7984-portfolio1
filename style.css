@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
+/*......................................General Styling..................................*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a; 
+
+}
+
+h1 h2 {
+
+    font-family: Oswald, sans-serif;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+/*........................................Styling for the Header...............................*/
+
+.header {
+    overflow: hidden;
+    background-color: #1A2D40;
+    padding: 10px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .header a:hover {
+    border-bottom: 1px solid white;
+  }
+  
+  
+  .header a.active {
+    border-bottom: 1px solid white;
+    
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+
+/*
+
+#logo {
+    float: left;
+    font-size: 180%;
+    margin-left: 30px;
+    color:green;
+    
+}
+
+#menu {
+    font-size: 110%;
+    color:green;
+    letter-spacing: 6px;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+
+}
+
+#menu a {
+
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+
+    border-bottom: 1px solid#3a3a3a;
+}
+
+.underline {
+    border-bottom: 1px solid #3a3a3a;
+}
+*/
+
+/*............................Styling for the main/hero image on Index page..............................*/
+
+#banner {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner-text {
+    color: white;
+}
+
+.contact-us {
+     
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    font-size: 80%;
+    background-color: #fFD200;
+    color: #fafafa;
+    display:block;
+    border-radius: 10px;
+}
+
+#banner-image {
+    height: 600px;
+    width: 100%;
+    background: url('/images/long-grass-with-morning-due.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   
+    animation-name: hero-zoom;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+
+}
+
+#banner-text {
+    font-size: 200%;
+    font-family: Oswald, Sans-serif;
+    letter-spacing: 4px;
+    width: 400px;
+    height: 200px;
+    padding-top: 40px;
+    padding-left: 15px;
+    top: 200px;
+    left: 25px;
+    position: absolute;
+    background: rgb(26, 45, 64,.6);
+    border-radius: 10px
+
+}
+
+#about {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    padding: 2rem;
+    align-items: center;
+    gap: 2rem;
+    
+}
+
+.image-main{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*.............................................Styling for the Footer .....................................*/
+
+footer {
+	background-color:#1A2D40;
+	text-align: center;
+    width: 100%;
+    bottom: 0;
+    right: 0;	
+    box-sizing: border-box;
+    height:60px;
+}
+
+.social-links{
+    text-align:center;
+}
+
+.social-links > li{
+   display: inline;
+}
+
+.social-links i {
+
+    font-size: 160%;
+    margin:0%;
+    padding: 1%;
+    color: white;    
+    
+}
+
+
+/*.....................................Styling for Gallery page.................................................. */
+
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 20px 20px 20px;
+}
+
+.container .heading {
+
+width: 50%;
+padding-bottom: 50px;
+
+}
+
+.container .heading h3 {
+
+    font-size: 3em;
+    font-weight: bolder;
+    padding-top: 60px;
+    padding-bottom:10px;
+    border-bottom: 3px solid #222;
+
+}
+
+.container .heading h3 span {
+    font-weight: 100;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .dream{
+
+display:flex;
+flex-direction:column;
+width: 32.5%;
+}
+
+.container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+    /*.........................................Styling for Contact page............................................... */
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:green;
+  }
+  
+  
+  .contact-form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+
+
+
+  /*.................................Styling for Responsive Elements.....................................................*/
+
+  @media screen and (max-width: 600px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+      .header-right {
+        float: none;
+      }
+
+
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+    .container .heading {
+          width: 100%;    
+        }
+
+        .container .heading h3 {
+            font-size: 1em;    
+        }
+
+        .container .box{
+            flex-direction: column;
+        }
+        .container .box .dream{
+            width: 100%;
+            }
+    
+            
+            menu {
+              float: none;
+              display: block;
+              text-align: left;
+            }
+          }
+
+
+        
+
+
+  
+
+
+  
+
+    
+        
+      
+    
+
+    
+        
