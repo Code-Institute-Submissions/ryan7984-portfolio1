@@ -31,6 +31,7 @@ h1 h2 {
     overflow: hidden;
     background-color: #1A2D40;
     padding: 10px 10px;
+    
   }
   
   .header a {
@@ -63,50 +64,6 @@ h1 h2 {
   .header-right {
     float: right;
   }
-
-/*
-
-#logo {
-    float: left;
-    font-size: 180%;
-    margin-left: 30px;
-    color:green;
-    
-}
-
-#menu {
-    font-size: 110%;
-    color:green;
-    letter-spacing: 6px;
-}
-
-#menu,
-#logo {
-    line-height: 75px;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-
-}
-
-#menu a {
-
-    text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-
-    border-bottom: 1px solid#3a3a3a;
-}
-
-.underline {
-    border-bottom: 1px solid #3a3a3a;
-}
-*/
 
 /*............................Styling for the main/hero image on Index page..............................*/
 
