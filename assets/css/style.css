@@ -83,7 +83,7 @@ h1 h2 {
 #banner-image {
     height: 600px;
     width: 100%;
-    background: url("images/long-grass-with-morning-due.jpg");
+    background: url("../images/index-page-long-grass-with-morning-due.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -128,19 +128,16 @@ h1 h2 {
     grid-template-columns: auto auto;
     padding: 2rem;
     align-items: center;
-    gap: 2rem;
-    
+    gap: 2rem;   
 }
-
 .image-main{
     max-width: 100%;
-    height: auto;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:600px;
+    height:400px;
 }
-
 /*.............................................Styling for the Footer .....................................*/
-
 footer {
 	background-color:#1A2D40;
 	text-align: center;
@@ -160,17 +157,12 @@ footer {
 }
 
 .social-links i {
-
     font-size: 160%;
     margin:0%;
     padding: 1%;
-    color: white;    
-    
+    color: white;        
 }
-
 /*.....................................Styling for Gallery page.................................................. */
-
-
 .container{
     display:flex;
     flex-direction:column;
@@ -181,10 +173,8 @@ footer {
 }
 
 .container .heading {
-
-width: 50%;
-padding-bottom: 50px;
-
+    width: 50%;
+    padding-bottom: 50px;
 }
 
 .container .heading h2 {
@@ -194,7 +184,6 @@ padding-bottom: 50px;
     padding-top: 10px;
     padding-bottom:10px;
     border-bottom: 3px solid #222;
-
 }
 
 .container .heading h2{
@@ -208,10 +197,9 @@ padding-bottom: 50px;
 }
 
 .container .box .pics{
-
-display:flex;
-flex-direction:column;
-width: 32.5%;
+   display:flex;
+   flex-direction:column;
+   width: 32.5%;
 }
 
 .container .box .pics img{
@@ -219,11 +207,6 @@ width: 32.5%;
     padding-bottom: 15px;
     border-radius: 5px;
 }
-
-
-
-
-
     /*.........................................Styling for Contact page............................................... */
   
   input[type=text], select, textarea {
@@ -277,6 +260,14 @@ width: 32.5%;
     clear: both;
   }
 
+  .iframes{
+   overflow:hidden;
+   width:100%;
+   position:relative;
+   border-radius: 5%;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
   /*.................................Styling for Responsive Elements.....................................................*/
 
   @media screen and (max-width: 600px) {
@@ -292,12 +283,27 @@ width: 32.5%;
         float: none;
       }
 
+      
 
-     .column, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
+      #about{
+        grid-template-columns: 1fr;
+        
       }
 
+     .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      }
+
+      #iframes{
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right:0;
+        width:100%;
+        height:100%;
+        position:absolute;
+       }
 
       .container .heading {
         width: 100%;    
@@ -320,19 +326,41 @@ width: 32.5%;
 
   }
 
+  @media screen and (max-width: 800px) {
 
-        
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
 
+    #iframes{
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right:0;
+      width:100%;
+      height:100%;
+      position:absolute;
+     }
 
-  
-
-
-  
-
+     #about{
+      grid-template-columns: 1fr; 
+    }
+  }
+   
+    @media screen and (max-width: 400px) {
     
-        
+    
+    #banner-text{
+      width: 100%;
+      margin: 0;
+      float: none;
+      left:0;
       
-    
+    }
 
+  }
+  
+ 
     
         
