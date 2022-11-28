@@ -93,7 +93,7 @@ h1 h2 {
 #banner-image {
     height: 600px;
     width: 100%;
-    background: url('images/long-grass-with-morning-due.jpg');
+    background: url("images/long-grass-with-morning-due.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -130,6 +130,9 @@ h1 h2 {
 
 }
 
+/*............................Styling for themiddle section pictures and text on Index page..............................*/
+
+
 #about {
     display: inline-grid;
     grid-template-columns: auto auto;
@@ -159,15 +162,15 @@ footer {
     height:60px;
 }
 
-.social{
+.social-links {
     text-align:center;
 }
 
-.social> li{
+.social-links > li{
    display: inline;
 }
 
-.social i {
+.social-links i {
 
     font-size: 160%;
     margin:0%;
