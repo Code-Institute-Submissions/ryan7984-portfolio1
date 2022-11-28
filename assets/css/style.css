@@ -14,7 +14,8 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #3a3a3a; 
+    color: #3a3a3a;
+    background-color:#cccccc;
 
 }
 
@@ -120,7 +121,7 @@ h1 h2 {
 
 }
 
-/*............................Styling for themiddle section pictures and text on Index page..............................*/
+/*............................Styling for the middle section pictures and text on Index page..............................*/
 
 
 #about {
