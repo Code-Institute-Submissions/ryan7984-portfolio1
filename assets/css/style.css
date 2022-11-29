@@ -48,14 +48,22 @@ h1 h2 {
     font-size: 25px;
     font-weight: bold;
   }
+ 
   .header a:hover {
     border-bottom: .5px solid white;
   }
   
+  .header .active{
+    border-bottom: .5px solid white;
+
+  }
+
+
   .header-right {
     float: right;
   }
 
+  
 /*............................Styling for the main/hero image on Index page..............................*/
 
 #banner {
