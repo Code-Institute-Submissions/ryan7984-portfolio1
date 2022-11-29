@@ -1,108 +1,92 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# cutmylawn.ie
 
-Welcome ryan7984,
+Cutmylawn.ie is a website for users in the need for someone to cut their lawn.Users of the website will be able to find the information thay need about the service being provided, a showcase of work the business has carried out to date and will also be able to enter their contact information to recieve a quote. The user also be able to interact with the website through google maps, detailing the location of the business and the also watch a youtube video providing information on a scarification service provided. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Website screenshots on different device sizes such as monitor, phone and tablet](assets/images/readme-responsive-image.png)
 
-## Gitpod Reminders
+--------
+## User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Client Goals
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+* To be able to view the site on a range of device sizes.
+* To be able to explain what services are provided.
+* To provide usefull information on lawn maintenance.
+* To make it easy for  potential customers to be able to contact the owner/service provider.
+* To provide an appealing showcase of previous work carried to first time and return visitors.
+* To provide information on the location of the business to the user 
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+* To be able to view the site on a range of device sizes.
+* To be able to see what services are provided.
+* To find usefull information on lawn maintenance.
+* To be easily able to contact the owner/service provider.
+* To find an appealing showcase of previus work carried out by the service provider. 
+* To easily navigate the site. 
 
-Another blue button should appear to click: _Open Browser_.
+Returning visitor Goals 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* To be able to find updated gallery images of new work carried out.
+* To be able to watch new videos on lawn maintenance. 
+* To easily be able to get in further conatct with the client. 
 
-To log into the Heroku toolbelt CLI:
+Frequent Visitor Goals 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* To be able to find seasonal related information on lawn maintenance and work carried oiut by the client. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+-----
 
-------
+## Design 
 
-## Release History
+Colour Scheme 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Due to the nature of the website green is a predominat color 
+so I decided to use a pallet of colours which would complement green.
+I used a brighter stand out color to draw attaention to the contact button and white colored text where needed to make the text easier to read. I toned down the background color of the body from white to make the pages easier on the eye. I feel the color of the header and footer provide nice conttrast to the rest of the color scheme. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* #3A3A3A
+* #FFD200
+* #1A2D40
+* #CCCCCC
+* #04AA6D
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+![Color gradient for website ](assets/images/color-gradient-%20website%20.png)
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+---
+## Typography
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+After trying different fonts I felt the the font which is is used in the love running project looked best on the website. I like these fonts the most as they look modern and are not too formal but still look professional. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The google fonts used are: 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+* Body font family: Lato, sans-serif
+* h1 h2 font family: Oswald, sans-serif
 
 ---
 
-Happy coding!
+## Imagery 
+
+All imagery used are free to use images without copyright from a website called pixabay. 
+
+---
+
+## Media
+
+I made sure to use a video where the user provided the embed code to be shared. The video is from youtube. 
+
+---
+
+## Features
+
+The website is comprised of 3 pages, all of which are accessible from the navigation menu: home page, contact page and gallery page.
+
+* All pages on the website have:
+1. Navigation menu on the top right hand side which allows the user to navigate through the site. 
+
+
+
+
