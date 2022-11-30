@@ -37,7 +37,6 @@ h1 h2 {
     top: 0;       
     width: 100%;
   }
-  
   .header a {
     float: left;
     color: white;
@@ -45,34 +44,22 @@ h1 h2 {
     padding: 10px 30px;
     text-decoration: none;
     font-size: 20px;
-    line-height: 25px;
-    
+    line-height: 25px; 
   }
-  
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
   }
- 
   .header a:hover {
-    border-bottom: .5px solid white;
-    
-    
+    border-bottom: .5px solid white;  
   }
-  
   .header .active{
     border-bottom: .5px solid white;
- 
   }
-
-
   .header-right {
     float: right;
   }
-
-  
 /*............................Styling for the main/hero image on Index page..............................*/
-
 #banner {
     height: 600px;
     width: 100%;
@@ -113,11 +100,9 @@ h1 h2 {
     from {
         transform: scale(1);
     }
-
     to {
         transform: scale(1.1);
     }
-
 }
 
 #banner-text {
@@ -133,26 +118,23 @@ h1 h2 {
     position: absolute;
     background: rgb(26, 45, 64,.6);
     border-radius: 10px
-
 }
-
 /*............................Styling for the middle section pictures and text on Index page..............................*/
-
-
 #about {
     display: inline-grid;
     grid-template-columns: auto auto;
-    padding: 2rem;
+    padding: 4rem;
     align-items: center;
-    gap: 2rem;   
+    gap: 4rem;   
 }
 .image-main{
     max-width: 100%;
     border-radius: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width:600px;
+    width:700px;
     height:400px;
 }
+
 
 h2{
 
