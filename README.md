@@ -151,22 +151,61 @@ The home page has a hero image as described above and a middle section showcasin
 4. I clicked on the pages link in the left hand side navigation bar.
 5. In the Source section, I chose main from the drop down menu and then I selected root from the 
    drop down select folder menu.
-6. I then clicked Save and after some time and a page refresh a message came up "Your live Github 
+6. I then clicked Save and after some time and a page refresh a message   came up "Your live Github 
    Pages site is now deployed at the URL shown" and a link was then available for me to click and view my website. 
 
-   # Testing 
+# Testing 
 
    Testing was ongoing throughout the whole process. I used Chrome developer tools, W3C HTML Validator and W3C CSS Validator (jigsaw)
 
-* HTML 
+Chrome Developer
+
+
+
+
+
+* HTML
+
+Home Page 
+
+
+
+Contact Page
+
+
+
+
+Gallery Page 
+
+
   
-  CSS 
-  * No errors were found when passing through the official (jigsaw) validator. 
-  
 
 
 
+* CSS 
+ No errors were found when passing through the official (jigsaw) validator. 
 
+
+![Sceeen shot of jigsaw validator showing no error found](assets/images/jigsaw-screenshot.png)
+
+
+#  Unfixed Bugs 
+
+ * No unfixed bugs found.
+
+ ---
+
+ # Credits 
+
+ * The code to make the social media linksin the footer was taken from the Love Running project and I added the Linkedin link and logo.
+ * After testing different fonts and font colours I found I liked the font from the Love Running project the most and I found it just seemed best suited to my colour scheme.  
+ * I saw people talking about flexbox on slack and I tried this out on the gallery page, I found youtube tutorials helpfull for this particularly those by the user "Tech2 etc". 
+ * For the contact form I used what I learned from this course and research on the w3 schools website. 
+ * All images are free images from the website www.pixabay.com 
+ * The youtube video used on the home page is  from JayRock Lawn Care & Gardening
+   @JayRockLawnCareGardening, for which the embed code was free to share. 
+
+--
 
 
 
