@@ -164,11 +164,14 @@ The home page has a hero image as described above and a middle section showcasin
 
 
 Mobile
-![Screen shot of lighthouse mobile result](assets/images/lighthouse-mobile.png)
+![Screen shot of lighthouse mobile result](assets/images/lighthouse-mobile-2.png)
 ---
 
 Desktop
-![Screen shot of lighthouse desktop result](assets/images/lighthouse-desktop.png)
+![Screen shot of lighthouse desktop result](assets/images/lighthouse-desktop-2.png)
+
+
+Please note performance and best practices scores were originally lower than above but improved after following lighthouse recommendations on image file size ans aspect ratio.
 
 ---
 
