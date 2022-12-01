@@ -1,6 +1,6 @@
 # cutmylawn.ie
 
-Cutmylawn.ie is a website for users in the need for someone to cut their lawn. Users of the website will be able to find the information thay need about the service being provided, a showcase of work the  fictitious business has carried out to date and will also be able to enter their contact information to recieve a quote. The user also be able to interact with the website through google maps, detailing the location of the business and the also watch a youtube video providing information on a scarification service provided. 
+Cutmylawn.ie is a website for users in need for someone to cut their lawn. Users of the website will be able to find the information they need about the service being provided, a showcase of work the  fictitious business has carried out to date and will also be able to enter their contact information to receive a quote. The user also be able to interact with the website through google maps, detailing the location of the business and the also watch a youtube video providing information on a scarification service provided. 
 
 
 ![Website screenshots on different device sizes such as monitor, phone and tablet](assets/images/readme-responsive-image.png)
@@ -13,7 +13,7 @@ Client Goals
 
 * To be able to view the site on a range of device sizes.
 * To be able to explain what services are provided.
-* To provide usefull information on lawn maintenance.
+* To provide useful information on lawn maintenance.
 * To make it easy for  potential customers to be able to contact the owner/service provider.
 * To provide an appealing showcase of previous work carried to first time and return visitors.
 * To provide information on the location of the business to the user 
@@ -23,7 +23,7 @@ First Time Visitor Goals
 
 * To be able to view the site on a range of device sizes.
 * To be able to see what services are provided.
-* To find usefull information on lawn maintenance.
+* To find useful information on lawn maintenance.
 * To be easily able to contact the owner/service provider.
 * To find an appealing showcase of previous work carried 
   out by the service provider. 
@@ -45,14 +45,14 @@ Frequent Visitor Goals
 
 Colour Scheme 
 
-Due to the nature of the website green is a predominant color 
+Due to the nature of the website green is a predominant colour 
 so I decided to use a pallet of colours which would complement green.
-I used a brighter stand out color to draw attention to the contact button and white colored text where needed to make the text easier to read. I toned down the background color of the body from white to make the pages easier on the eye. I feel the color of the header and footer provide nice contrast to the rest of the color scheme. 
+I used a brighter stand out colour to draw attention to the contact button and white coloured text where needed to make the text easier to read. I toned down the background colour of the body from white to make the pages easier on the eye. I feel the colour of the header and footer provide nice contrast to the rest of the colour scheme. 
 
-* #3A3A3A - Dark shade of gray
+* #3A3A3A - Dark shade of grey
 * #FFD200 - Light yellow shade
 * #1A2D40 - Dark shade of cyan-blue
-* #CCCCCC - Chinese silver/light shade of gray 
+* #CCCCCC - Chinese silver/light shade of grey 
 * #04AA6D - Green-cyan
 
 ![Color gradient for website ](assets/images/color-gradient-%20website%20.png)
@@ -60,7 +60,7 @@ I used a brighter stand out color to draw attention to the contact button and wh
 ---
 ## Typography
 
-After trying different fonts I felt the the font which is is used in the love running project looked best on the website. I like these fonts the most as they look modern and are not too formal but still look professional. 
+After trying different fonts I felt the font which is used in the love running project looked best on the website. I like these fonts the most as they look modern and are not too formal but still look professional. 
 
 The google fonts used are: 
 

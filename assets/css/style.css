@@ -269,16 +269,20 @@ footer {
         display: block;
         text-align: left;
       }
+      
       .header-right {
         float: none;
       }
+
       #about{
         grid-template-columns: 1fr;    
       }
+
      .column, input[type=submit] {
       width: 100%;
       margin-top: 0;
       }
+
       #iframes{
         top: 0;
         left: 0;
@@ -288,15 +292,19 @@ footer {
         height:100%;
         position:absolute;
        }
+
       .container .heading {
         width: 100%;    
       }
+
       .container .heading h3 {
         font-size: 1em;    
       }
+
       .container .box{
         flex-direction: column;
       }
+
       .container .box .pics{
         width: 100%;
       } 
@@ -305,10 +313,14 @@ footer {
         width: 100%;
         margin: 0;
         float: none;
-        left:0;  
-        margin-top: px;
+        left:0;   
       }
 
+      #banner-image{
+        width: 100%;
+        margin: 0;
+        float: none;
+      }
  }
   
   @media screen and (max-width: 800px) {
