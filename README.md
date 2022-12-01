@@ -83,7 +83,7 @@ I made sure to use a video where the user provided the embed code to be shared. 
 
 # Features
 
-The website is comprised of 3 pages, all of which are accessible from the navigation menu: home page, contact page and gallery page.
+The website consists of 3 pages, all of which are accessible from the navigation menu: home page, contact page and gallery page.
 
 ## All pages on the website have:
 
@@ -101,19 +101,19 @@ The website is comprised of 3 pages, all of which are accessible from the naviga
 
 2. A simple footer which just includes the important 
    social links. I used the 
-   same social links as the love running project for Facebook, Instagram , Twitter and YouTube. I also added a logo and link for lnkedin. All of the links
+   same social links as the love running project for Facebook, Instagram , Twitter and YouTube. I also added a logo and link for Linkedin. All of the links
    in the footer open in a new page. 
 
-3. A main hero image with a stand out contact button    which brings the user straight to the contact section of the website on the contact page. The hero image is is a picture of grass and blurred out to a degree  as to not to cause distraction and to ensure the contact button is the main focal point.The hero image has a transform animation of a short 5s interval upon page opening/refreshing. 
+3. A main hero image with a stand out contact button    which brings the user straight to the contact section of the website on the contact page. The hero image is a picture of grass and blurred out to a degree  as to not to cause distraction and to ensure the contact button is the main focal point.The hero image has a transform animation of a short 5s interval upon page opening/refreshing. 
 
 ## Home Page 
 
-The home page has a hero image as described above and a middle section showcasing the business at work and short descriptions of what the business does along with descriptive images and video. On large screens there are two columns but on mobile devices these covert to a single column for ease of use. 
+The home page has a hero image as described above and a middle section showcasing the business at work and short descriptions of what the business does along with descriptive images and video. On large screens there are two columns but on mobile devices these convert to a single column for ease of use. 
 
 
 ## Contact Page
 
- On the contact page a form is provided for the user to enter there name, email , the county in which they live in and additional details if necessary. The enables the user to communicate any queries to the client/business or to request a quote based on the inforamtion given. name, email and county selection are a requirment to submit the form for which a submit button is provided. 
+ On the contact page a form is provided for the user to enter their name, email , the county in which they live in and additional details if necessary. The contact page enables the user to communicate any queries to the client/business or to request a quote based on the information given. name, email and county selection are a requirement to submit the form for which a submit button is provided. 
  Google maps is also provided on the contact page enabling the user to see the location of the business and source directions if needed. 
 
 ## Gallery Page 
@@ -125,11 +125,11 @@ The home page has a hero image as described above and a middle section showcasin
  I hope to make use of javascript in the next module of my course to enhance the website further.
 
   ## Accessibility
-  I have kept accessibilty in mind throughout the coding process to ensure the website is as accessible and friendly as possible. I have achieved this by:
+  I have kept accessibility in mind throughout the coding process to ensure the website is as accessible and friendly as possible. I have achieved this by:
 
 * Using descriptive alt attributes  on images on the site 
 * Using semantic HTML
-* Ensuring there is sufficient color contrast throughout the site. 
+* Ensuring there is sufficient colour contrast throughout the site. 
 
 ## Languages Used
 
@@ -152,19 +152,27 @@ The home page has a hero image as described above and a middle section showcasin
 4. I clicked on the pages link in the left hand side navigation bar.
 5. In the Source section, I chose main from the drop down menu and then I selected root from the 
    drop down select folder menu.
-6. I then clicked Save and after some time and a page refresh a message   came up "Your live Github 
+6. I then clicked Save and after some time and a page 
+   refresh a message   came up "Your live Github 
    Pages site is now deployed at the URL shown" and a link was then available for me to click and view my website. 
 
 ## Testing 
 
    Testing was ongoing throughout the whole process. I used Chrome developer tools, W3C HTML Validator and W3C CSS Validator (jigsaw)
 
-* Chrome Developer
+ ## Chrome Developer
 
 
+Mobile
+![Screen shot of lighthouse mobile result](assets/images/lighthouse-mobile.png)
+---
 
+Desktop
+![Screen shot of lighthouse desktop result](assets/images/lighthouse-desktop.png)
 
+---
 
+## W3C HTML Validator
 
 
 * Home Page HTML- No Errors found
@@ -179,6 +187,7 @@ The home page has a hero image as described above and a middle section showcasin
 ![Screen shot of w3c Validator with no errors from check on html of th gallery.html file](assets/images/gallery-page-validator.png)
 
 ---
+## W3C CSS Validator (jigsaw)
 
 * CSS  - No Errors found 
   ![Sceeen shot of jigsaw validator showing no error found](assets/images/jigsaw-screenshot.png)
