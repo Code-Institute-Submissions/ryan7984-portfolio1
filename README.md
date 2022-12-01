@@ -158,35 +158,29 @@ The home page has a hero image as described above and a middle section showcasin
 
    Testing was ongoing throughout the whole process. I used Chrome developer tools, W3C HTML Validator and W3C CSS Validator (jigsaw)
 
-Chrome Developer
+* Chrome Developer
 
 
 
 
 
-* HTML
-
-Home Page 
 
 
+* Home Page HTML- No Errors found
+![Screen shot of w3c Validator with no errors from check on html of th index.html file](assets/images/index-page-validator.png)
+---
 
-Contact Page
+* Contact Page HTML - No Errors found 
+![Screen shot of w3c Validator with no errors from check on html of th contact.html file](assets/images/contact-page-validator.png)
 
+---
+* Gallery Page HTML - No Errors found 
+![Screen shot of w3c Validator with no errors from check on html of th gallery.html file](assets/images/gallery-page-validator.png)
 
+---
 
-
-Gallery Page 
-
-
-  
-
-
-
-* CSS 
- No errors were found when passing through the official (jigsaw) validator. 
-
-
-![Sceeen shot of jigsaw validator showing no error found](assets/images/jigsaw-screenshot.png)
+* CSS  - No Errors found 
+  ![Sceeen shot of jigsaw validator showing no error found](assets/images/jigsaw-screenshot.png)
 
 
 #  Unfixed Bugs 
@@ -197,7 +191,7 @@ Gallery Page
 
  # Credits 
 
- * The code to make the social media linksin the footer was taken from the Love Running project and I added the Linkedin link and logo.
+ * The code to make the social media links in the footer was taken from the Love Running project and I added the Linkedin link and logo.
  * After testing different fonts and font colours I found I liked the font from the Love Running project the most and I found it just seemed best suited to my colour scheme.  
  * I saw people talking about flexbox on slack and I tried this out on the gallery page, I found youtube tutorials helpfull for this particularly those by the user "Tech2 etc". 
  * For the contact form I used what I learned from this course and research on the w3 schools website. 
