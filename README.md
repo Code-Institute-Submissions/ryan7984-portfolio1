@@ -116,9 +116,14 @@ The home page has a hero image as described above and a middle section showcasin
  On the contact page a form is provided for the user to enter their name, email , the county in which they live in and additional details if necessary. The contact page enables the user to communicate any queries to the client/business or to request a quote based on the information given. name, email and county selection are a requirement to submit the form for which a submit button is provided. 
  Google maps is also provided on the contact page enabling the user to see the location of the business and source directions if needed. 
 
-## Gallery Page 
+![Screen shot of the Contact Page](assets/images/contact-page.png)
 
- The Gallery page showcases the work carried out by the client for the user. There is three columns of pictures which reduce to one single column for mobile device. 
+
+## Gallery Page 
+The Gallery page showcases the work carried out by the client for the user. There is three columns of pictures which reduce to one single column for mobile device. 
+![Screen shot of the Gallery Page](assets/images/screenshot-gallery-page.png)
+
+ 
 
  ## Future Implementations 
  
@@ -171,7 +176,7 @@ Desktop
 ![Screen shot of lighthouse desktop result](assets/images/lighthouse-desktop-2.png)
 
 
-Please note performance and best practices scores were originally lower than above but improved after following lighthouse recommendations on image file size ans aspect ratio.
+Please note performance and best practices scores were originally lower than above but improved after following lighthouse recommendations on image file size and aspect ratio.
 
 ---
 
